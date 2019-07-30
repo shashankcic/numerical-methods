@@ -13,6 +13,7 @@ float c; //root value
 int o; //order of the polynomial
 
 float f;
+bool found=false;
 int res=0;
 int count=0;
 int n;
@@ -41,11 +42,7 @@ while(res==0)
             printf("Enter the limits again! \n");
     }
 
-printf("Enter the number of iterations \n");
-scanf("%d",&n);
-
-
-while(count<n)
+while(found == false)
     {
         c = (b+a)/2;
         f = fun(cofs,o,c);
@@ -55,6 +52,10 @@ while(count<n)
             b=c;
 
         count++;
+        if(abs(f)<0.000001){
+            printf("Found root at: %d iteration \n", count);
+            found=true;            
+        }
     }
 
 printf("Root value is: \n %f",c);

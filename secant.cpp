@@ -51,7 +51,7 @@ while(found==false)
         a=b;
         b=c;
 
-        if(abs(fun(cofs,o,c))<abs(0.000001)){
+        if(abs(fun(cofs,o,c))<0.000001){
             printf("Found root at: %d iteration \n", count);
             found=true;
         }
