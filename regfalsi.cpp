@@ -14,6 +14,7 @@ int o; //order of the polynomial
 int n; //number of iterations
 
 float f; //value of f
+bool found=false;
 int res=0;
 int count=0; 
 
@@ -41,10 +42,7 @@ while(res==0)
             printf("Enter the limits again! \n");
     }
 
-printf("Enter the number of iterations \n");
-scanf("%d",&n);
-
-while(count<n)
+while(found==false)
     {
         c = ( (fun(cofs,o,a)*(a-b))/(fun(cofs,o,b)-fun(cofs,o,a)) + a);
         f = fun(cofs,o,c);
@@ -55,9 +53,11 @@ while(count<n)
             a=c;
 
         count++;
+        if(abs(f)<0.000001){
+            printf("Found root at: %d iteration \n", count);
+            found=true;            
+        }
     }
-
-printf("Number of iterations %d \n", count);
 
 printf("Root value is: \n %f",c);
     return 0;

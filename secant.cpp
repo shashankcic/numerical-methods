@@ -1,5 +1,6 @@
-//Bisection Method to find the roots of a polynomial.
+//Secant Method to find the roots of a polynomial.
 #include<stdio.h>
+#include<stdlib.h>
 #include<math.h>
 
 float fun(float [], int, float );
@@ -12,7 +13,7 @@ float c; //root value
 
 int o; //order of the polynomial
 
-float f;
+float temp;
 bool found=false;
 int res=0;
 int count=0;
@@ -28,33 +29,31 @@ printf("Enter the %d coefficients:", o+1);
 for(int i=0;i<=o;i++)
     scanf("%f", &cofs[i]);
 
-while(res==0)
+printf("Enter lower limit: \n");
+scanf("%f",&a);
+
+printf("Enter upper limit: \n");
+    scanf("%f",&b);
+    
+
+if(abs(fun(cofs,o,a))<abs(fun(cofs,o,b))){
+    temp = a;
+    a = b;
+    b = temp;
+}
+
+while(found==false)
     {
-        printf("Enter lower limit: \n");
-        scanf("%f",&a);
-
-        printf("Enter upper limit: \n");
-        scanf("%f",&b);
-
-        if(fun(cofs,o,a)*fun(cofs,o,b)<0)
-            res=1;
-        else
-            printf("Enter the limits again! \n");
-    }
-
-while(found == false)
-    {
-        c = (b+a)/2;
-        f = fun(cofs,o,c);
-        if(f<0)
-            a=c;    
-        else
-            b=c;
+        c = b-fun(cofs,o,b) * ((a-b) / (fun(cofs,o,a)-fun(cofs,o,b)));
 
         count++;
-        if(abs(f)<0.000001){
+
+        a=b;
+        b=c;
+
+        if(abs(fun(cofs,o,c))<0.000001){
             printf("Found root at: %d iteration \n", count);
-            found=true;            
+            found=true;
         }
     }
 
