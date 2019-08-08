@@ -44,7 +44,7 @@ while(found==false)
         count++;
 
 
-        if(abs(f)<pow(10,-6)){
+        if(abs(fun(cofs,o,c))<pow(10,-6)){
             printf("Found root at: %d iteration \n", count);
             found=true;
         }
