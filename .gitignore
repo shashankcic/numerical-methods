@@ -1,4 +1,4 @@
-#Execution files
+#Execution files to be ignored
 bisection.exe
 newton.exe
 secant.exe
