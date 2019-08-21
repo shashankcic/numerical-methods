@@ -1,4 +1,4 @@
-//Regular Falsi Method to find the roots of a polynomial.
+//Regula Falsi Method to find the roots of a polynomial.
 #include<stdio.h>
 #include<math.h>
 

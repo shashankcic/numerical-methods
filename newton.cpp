@@ -43,12 +43,9 @@ int main()
 
             count++;
 
-
-            if(fabs(f)<pow(10,-6)){
-                printf("Found root at: %d iteration \n", count);
-                found=true;
-            }
-        }
+        if(abs(fun(cofs,o,c))<pow(10,-6)){
+            printf("Found root at: %d iteration \n", count);
+            found=true;
 
     printf("Root value is: \n %lf",c);
     return 0;
