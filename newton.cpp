@@ -9,48 +9,45 @@ double der(double [], int, double );
 int main()
 {
 
-//double pi=3.14;
-double c; //root value
-double d,f;
-int o; //order of the polynomial
+    //double pi=3.14;
+    double c; //root value
+    double d,f;
+    int o; //order of the polynomial
 
-//double temp;
-bool found=false;
-int res=0;
-int count=0;
-//int n;
+    //double temp;
+    bool found=false;
+    int res=0;
+    int count=0;
+    //int n;
 
-printf("Enter order of the polynomial \n");
-scanf("%d",&o);
+    printf("Enter order of the polynomial \n");
+    scanf("%d",&o);
 
-double cofs[o];
+    double cofs[o];
 
-printf("Enter the %d coefficients:", o+1);
+    printf("Enter the %d coefficients:", o+1);
 
-for(int i=0;i<=o;i++)
-    scanf("%lf", &cofs[i]);
+    for(int i=0;i<=o;i++)
+        scanf("%lf", &cofs[i]);
 
-printf("Enter a value: \n");
-scanf("%lf",&c);
-    
+    printf("Enter a value: \n");
+    scanf("%lf",&c);
+        
 
-while(found==false)
-    {
-        f=fun(cofs,o,c);
-        d=der(cofs,o,c);
+    while(found==false)
+        {
+            f=fun(cofs,o,c);
+            d=der(cofs,o,c);
 
-        c = c - (f)/(d);
+            c = c - (f)/(d);
 
-        count++;
-
+            count++;
 
         if(abs(fun(cofs,o,c))<pow(10,-6)){
             printf("Found root at: %d iteration \n", count);
             found=true;
-        }
-    }
 
-printf("Root value is: \n %lf",c);
+    printf("Root value is: \n %lf",c);
     return 0;
 }
 
