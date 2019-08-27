@@ -6,3 +6,5 @@ Basic codes in C++ for Numerical Methods to find the roots of a polynomial:
 3. Secant Method
 4. Newton Raphson Method
 5. Fixed Point Iteration Scheme
+
+Gaussian Elimination Method with partial pivoting
