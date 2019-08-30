@@ -71,7 +71,7 @@ int main()
     total_time = ((double) (end - start)) /  CLOCKS_PER_SEC; //calculating time taken
 
 	printf("Root value is: \n %f",c);
-    printf("\nTime taken: %f %f %f", total_time);
+    printf("\nTime taken: %f", total_time);
 
     return 0;
 }
