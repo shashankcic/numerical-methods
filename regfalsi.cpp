@@ -1,11 +1,17 @@
 //Regula Falsi Method to find the roots of a polynomial.
 #include<stdio.h>
 #include<math.h>
+#include<iostream>
+#include<time.h>
+using namespace std;
 
 float fun(float [], int, float ); 
 
 int main()
 {
+
+    double total_time;
+    clock_t start, end;
 
     float a,b; //range vaules 
     float c; //root value
@@ -29,37 +35,42 @@ int main()
         scanf("%f", &cofs[i]);
 
     while(res==0)
-        {
-            printf("Enter lower limit: \n");
-            scanf("%f",&a);
+    {
+        printf("Enter lower limit: \n");
+        scanf("%f",&a);
 
-            printf("Enter upper limit: \n");
-            scanf("%f",&b);
+        printf("Enter upper limit: \n");
+        scanf("%f",&b);
 
-            if(fun(cofs,o,a)*fun(cofs,o,b)<0)
-                res=1;
-            else
-                printf("Enter the limits again! \n");
-        }
+        if(fun(cofs,o,a)*fun(cofs,o,b)<0)
+            res=1;
+        else
+            printf("Enter the limits again! \n");
+    }
+
+    start=clock();
 
     while(found==false)
-        {
-            c = ( (fun(cofs,o,a)*(a-b))/(fun(cofs,o,b)-fun(cofs,o,a)) + a);
-            f = fun(cofs,o,c);
+    {
+        c = ( (fun(cofs,o,a)*(a-b))/(fun(cofs,o,b)-fun(cofs,o,a)) + a);
+        f = fun(cofs,o,c);
 
-            if(f*(fun(cofs,o,a))<0)
-                b=c;
-            else
-                a=c;
+        if(f*(fun(cofs,o,a))<0)
+            b=c;
+        else
+            a=c;
 
-            count++;
-            if(fabs(f)<0.000001){
-                printf("Found root at: %d iteration \n", count);
-                found=true;            
-            }
+        count++;
+        if(fabs(f)<0.000001){
+            printf("Found root at: %d iteration \n", count);
+            found=true;            
         }
+    }
+    end = clock();
+    total_time = ((double) (end - start)) /  CLOCKS_PER_SEC; //calculating time taken
 
     printf("Root value is: \n %f",c);
+    printf("\nTime taken: %f", total_time);    
     return 0;
 }
 
