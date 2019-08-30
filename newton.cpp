@@ -46,11 +46,11 @@ int main()
         if(abs(fun(cofs,o,c))<pow(10,-6)){
             printf("Found root at: %d iteration \n", count);
             found=true;
-
+}
     printf("Root value is: \n %lf",c);
     return 0;
 }
-
+}
 double fun (double arr[], int b, double c)
 {
     double res=0;
