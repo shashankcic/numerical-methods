@@ -7,4 +7,4 @@
 4. Newton Raphson Method
 5. Fixed Point Iteration Scheme
 
-## Gaussian Elimination Method with partial pivoting in C++
+### Gaussian Elimination Method with partial pivoting in C++
