@@ -3,12 +3,16 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<math.h>
+#include<time.h>
 using namespace std;
 
 float fun(float [], int, float );
 
 int main()
 {
+
+    double total_time;
+    clock_t start, end;
 
     float a; //initial value 
     float c; //root value
@@ -39,6 +43,8 @@ int main()
     for(int i=0;i<=o[1];i++)
         scanf("%f", &cofs2[i]);
 
+    start = clock();
+
     while(found==false){
         printf("Enter initial value: \n");
         scanf("%f",&a);
@@ -61,7 +67,12 @@ int main()
         }
     }
  
-   printf("Root value is: \n %f",a);
+    end = clock();
+    total_time = ((double) (end - start)) /  CLOCKS_PER_SEC; //calculating time taken 
+
+    printf("Root value is: \n %f",a);
+    printf("\nTime taken: %f", total_time);
+    
     return 0;
 }
 
