@@ -5,7 +5,7 @@
 2. Method of False Position (Regula-Falsi)
 3. Secant Method
 4. Newton-Raphson Method
-5. Fixed Point Iteration Scheme
+5. Fixed-Point Iteration Scheme
 
 #### Gaussian Elimination Method code with partial pivoting in C++
 
