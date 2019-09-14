@@ -9,6 +9,6 @@
 
 #### Gaussian Elimination Method code with partial pivoting in C++
 
-#### Gaussian Elimination Method code with scaled partial pivoting in C++
+#### Gaussian Elimination Method code with scaled-partial pivoting in C++
 
 #### L-U Decomposition
