@@ -11,4 +11,4 @@
 
 #### Gaussian Elimination Method code with scaled-partial pivoting in C++
 
-#### L-U Decomposition
+#### LU Decomposition
