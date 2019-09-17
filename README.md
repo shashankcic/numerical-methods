@@ -14,3 +14,5 @@
 #### LU Decomposition
 
 #### Gauss-Jacobi Method
+
+#### Gauss-Seidel Method
