@@ -16,3 +16,5 @@
 #### Gauss-Jacobi Method
 
 #### Gauss-Seidel Method
+
+#### SOR Method
