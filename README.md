@@ -17,4 +17,4 @@
 
 #### Gauss-Seidel Method
 
-#### SOR Method
+#### Method of Successive Over-Relaxation (SOR) Method
