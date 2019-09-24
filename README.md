@@ -13,7 +13,7 @@
 
 #### Gaussian Elimination Method code with scaled-partial pivoting in C++
 
-#### LU Decomposition
+#### LU Decomposition in C++
 
 #### Gauss-Jacobi Method
 
