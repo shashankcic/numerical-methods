@@ -15,7 +15,7 @@
 
 #### LU Decomposition in C++
 
-#### Gauss-Jacobi Method
+#### Gauss-Jacobi Method in C++
 
 #### Gauss-Seidel Method
 
