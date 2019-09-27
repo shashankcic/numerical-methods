@@ -17,6 +17,6 @@
 
 #### Gauss-Jacobi Method in C++
 
-#### Gauss-Seidel Method
+#### Gauss-Seidel Method in C++
 
 #### Method of Successive Over-Relaxation (SOR) Method
