@@ -20,3 +20,5 @@
 #### Gauss-Seidel Method in C++
 
 #### Method of Successive Over-Relaxation (SOR) Method in C++
+
+#### Lagrange's Interpolation
