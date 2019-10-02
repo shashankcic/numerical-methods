@@ -21,4 +21,4 @@
 
 #### Method of Successive Over-Relaxation (SOR) Method in C++
 
-#### Lagrange's Interpolation
+#### Lagrange's Interpolation in C++
