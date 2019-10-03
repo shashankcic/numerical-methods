@@ -22,3 +22,5 @@
 #### Method of Successive Over-Relaxation (SOR) Method in C++
 
 #### Lagrange's Interpolation in C++
+
+#### Newton's Divided Difference
