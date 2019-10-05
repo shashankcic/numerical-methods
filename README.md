@@ -23,4 +23,4 @@
 
 #### Lagrange's Interpolation in C++
 
-#### Newton's Divided Difference
+#### Newton's Divided Difference in C++
