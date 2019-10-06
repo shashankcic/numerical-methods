@@ -24,3 +24,5 @@
 #### Lagrange's Interpolation in C++
 
 #### Newton's Divided Difference in C++
+
+#### Cubic-Spline Interpolation
