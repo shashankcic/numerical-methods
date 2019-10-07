@@ -25,4 +25,4 @@
 
 #### Newton's Divided Difference in C++
 
-#### Cubic-Spline Interpolation
+#### Cubic-Spline Interpolation in C++
