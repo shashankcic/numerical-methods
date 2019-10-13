@@ -7,19 +7,21 @@
 4. Newton-Raphson Method
 5. Fixed-Point Iteration Scheme
 
-#### Gaussian Elimination Method in C++
+## System of Equations solving in C++
 
-#### Gaussian Elimination Method code with partial pivoting in C++
+1. Gaussian Elimination Method in C++
 
-#### Gaussian Elimination Method code with scaled-partial pivoting in C++
+2. Gaussian Elimination Method code with partial pivoting in C++
 
-#### LU Decomposition in C++
+3. Gaussian Elimination Method code with scaled-partial pivoting in C++
 
-#### Gauss-Jacobi Method in C++
+4. LU Decomposition in C++
 
-#### Gauss-Seidel Method in C++
+5. Gauss-Jacobi Method in C++
 
-#### Method of Successive Over-Relaxation (SOR) Method in C++
+6. Gauss-Seidel Method in C++
+
+7. Method of Successive Over-Relaxation (SOR) Method in C++
 
 ## Interpolation in C++
 1. Lagrange's Interpolation in C++
