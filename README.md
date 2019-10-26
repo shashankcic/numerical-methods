@@ -25,4 +25,4 @@
 
 ## Numerical Integration in C++
 1. Trapezoidal Rule
-2. Simpson Rule
+2. Simpson's Rule
