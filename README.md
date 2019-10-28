@@ -24,5 +24,5 @@
 3. Cubic-Spline Interpolation in C++
 
 ## Numerical Integration in C++
-1. Trapezoidal Rule
+1. Composite Trapezoidal Rule
 2. Simpson's Rule
