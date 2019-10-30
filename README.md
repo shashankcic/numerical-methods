@@ -7,7 +7,7 @@
 4. Newton-Raphson Method
 5. Fixed-Point Iteration Scheme
 
-## System of Equations solving in C++
+## Solving System of Equations in C++
 ### Linear Equations
 1. Gaussian Elimination Method in C++
 2. Gaussian Elimination Method code with partial pivoting in C++
