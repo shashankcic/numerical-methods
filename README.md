@@ -16,7 +16,7 @@
 1. LU Decomposition in C++
 2. Gauss-Jacobi Method in C++
 3. Gauss-Seidel Method in C++
-4. Method of Successive Over-Relaxation (SOR) Method in C++
+4. Method of Successive Over-Relaxation (SOR) in C++
 
 ## Interpolation in C++
 1. Lagrange's Interpolation in C++
