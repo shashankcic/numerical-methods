@@ -26,3 +26,4 @@
 ## Numerical Integration in C++
 1. Composite Trapezoidal Rule
 2. Composite Simpson's Rule
+3. Gauss Quadrature in C++
