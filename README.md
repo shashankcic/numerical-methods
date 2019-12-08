@@ -4,7 +4,7 @@
 1. Interval-halving (Bisection) Method in C++
 2. Method of False Position (Regula-Falsi) in C++
 3. Secant Method in C++
-4. Newton-Raphson Method
+4. Newton-Raphson Method in C++
 5. Fixed-Point Iteration Scheme
 
 ## Solving System of Equations in C++
