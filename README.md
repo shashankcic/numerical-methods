@@ -1,6 +1,7 @@
 # Numerical Methods
 
-## Basic codes in C++ for Numerical Methods to find the roots of a polynomial:
+## Basic codes in C++ for Numerical Methods 
+## Finding the roots of a polynomial:
 1. Interval-halving (Bisection) Method in C++
 2. Method of False Position (Regula-Falsi) in C++
 3. Secant Method in C++
