@@ -19,12 +19,12 @@
 3) Gauss-Seidel Method in C++
 4) Method of Successive Over-Relaxation (SOR) in C++
 
-## Interpolation in C++
+### Interpolation in C++
 1) Lagrange's Interpolation in C++
 2) Newton's Divided Difference in C++
 3) Cubic-Spline Interpolation in C++
 
-## Numerical Integration in C++
+### Numerical Integration in C++
 1) Composite Trapezoidal Rule in C++
 2) Composite Simpson's Rule Method in C++
 3) Gauss-Quadrature Method in C++
