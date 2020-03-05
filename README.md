@@ -10,7 +10,7 @@
 4) Newton-Raphson Method in C++
 5) Fixed-Point Iteration Scheme in C++
 
-### Solving System of Equations in C++
+### Solving System of Equations in C++:
 
 #### Linear Equations
 1) Gaussian Elimination code in C++
