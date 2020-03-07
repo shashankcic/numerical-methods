@@ -28,7 +28,7 @@
 2) Newton's Divided Difference in C++
 3) Cubic-Spline Interpolation in C++
 
-### Numerical Integration in C++
+### Numerical Integration in C++:
 1) Composite Trapezoidal Rule in C++
 2) Composite Simpson's Rule Method in C++
 3) Gauss-Quadrature Method in C++
