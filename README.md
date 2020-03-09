@@ -12,7 +12,7 @@
 
 ### Solving System of Equations in C++:
 
-#### Linear Equations
+#### Linear Equations:
 1) Gaussian Elimination code in C++
 2) Gaussian Elimination code with partial pivoting in C++
 3) Gaussian Elimination code with scaled-partial pivoting in C++
