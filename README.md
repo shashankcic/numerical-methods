@@ -25,7 +25,7 @@
 
 ### Interpolation in C++:
 1) Lagrange's Interpolation Method in C++
-2) Newton's Divided-Difference in C++
+2) Newton's Divided-Difference Method in C++
 3) Cubic-Spline Interpolation in C++
 
 ### Numerical Integration in C++:
