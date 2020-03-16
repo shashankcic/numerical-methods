@@ -18,7 +18,7 @@
 3) Gaussian Elimination code with scaled-partial pivoting in C++
 
 #### Non-linear Equations:
-1) LU Decomposition in C++
+1) LU Decomposition Method in C++
 2) Gauss-Jacobi Method in C++
 3) Gauss-Seidel Method in C++
 4) Method of Successive Over-Relaxation (SOR) in C++
