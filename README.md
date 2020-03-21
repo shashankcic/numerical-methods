@@ -30,5 +30,5 @@
 
 ### Numerical Integration in C++:
 1) Composite-Trapezoidal Rule Method in C++
-2) Composite Simpson's Rule Method in C++
+2) Composite-Simpson's Rule Method in C++
 3) Gauss-Quadrature Method in C++
