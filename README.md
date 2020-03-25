@@ -14,7 +14,7 @@
 
 #### Linear Equations:
 1) Gaussian Elimination Method code in C++
-2) Gaussian Elimination Method code with partial pivoting in C++
+2) Gaussian Elimination code with partial pivoting Method in C++
 3) Gaussian Elimination Method code with scaled partial pivoting in C++
 
 #### Non-linear Equations:
