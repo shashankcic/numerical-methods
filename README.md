@@ -17,7 +17,7 @@
 2) Gaussian Elimination code with partial pivoting Method in C++
 3) Gaussian Elimination code with scaled-partial pivoting Method in C++
 
-#### Non-linear Equations:
+#### For Non-linear Equations:
 1) LU Decomposition Method in C++
 2) Gauss-Jacobi Method in C++
 3) Gauss-Seidel Method in C++
