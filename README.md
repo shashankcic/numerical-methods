@@ -1,4 +1,4 @@
-# Numerical Methods
+# Numerical Methods Practice
 
 ## Basic codes in C++ for Numerical Methods: 
 
